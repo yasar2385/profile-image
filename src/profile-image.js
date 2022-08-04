@@ -58,8 +58,8 @@ class ProfileImage {
   }
 }
 
-var image = new ProfileImage('Yasar');
+var image = new ProfileImage('YA');
 console.log(image.svg());
 var _String = image.svg();
-let frag = document.createRange().createContextualFragment(_String)
-document.getElementById('DEMO').append(frag,_String)
+let frag = document.createRange().createContextualFragment(_String);
+document.getElementById('DEMO').append(frag);
